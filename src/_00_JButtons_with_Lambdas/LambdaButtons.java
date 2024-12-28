@@ -14,6 +14,9 @@ public class LambdaButtons {
 	public LambdaButtons() {
 		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		window.setLayout(new FlowLayout());
+		addNumbers.addActionListener(null);
+		randNumber.addActionListener(null);
+		tellAJoke.addActionListener(null);
 		window.add(addNumbers);
 		window.add(randNumber);
 		window.add(tellAJoke);
